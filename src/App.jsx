@@ -76,7 +76,7 @@ export default function Board() {
 
   return (
     <>
-      <h1>ADITT IMOET</h1>
+      <h1>Tic Tac Toe</h1>
       <div>{status}</div>
       <div className="board">
         <Square value={squares[0]} onSquareClick={handleClick(0)} />
